@@ -3,7 +3,9 @@ public class HelloWorld{
     //Printing Hello World
     System.out.println("Hello World");
     int[] arr = {4,3,7,8,1,2,6};
-    System.out.println(linearSearch(arr,2));
+    //Getting the return value
+    int retVal = linearSearch(arr,2);
+    System.out.println(retVal);
   }
   // Learning Github
   // Appending a few lines to check How to resolve n commits behind master
